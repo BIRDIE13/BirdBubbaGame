@@ -17,20 +17,28 @@
       "name": "Blue djinn",
       "candidateNpcs": [
         "Nah'Bob",
-        "Haroun"
+        "Haroun",
+        "Marid"
       ]
     },
     "green": {
       "name": "Green djinn",
       "candidateNpcs": [
         "Alesar",
-        "Yaman"
+        "Yaman",
+        "Efreet"
       ]
     },
     "rashid": {
       "name": "Rashid",
       "candidateNpcs": [
         "Rashid"
+      ]
+    },
+    "uzgod": {
+      "name": "Uzgod",
+      "candidateNpcs": [
+        "Uzgod"
       ]
     }
   },
