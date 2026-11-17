@@ -10,7 +10,8 @@
     "name": "Empty string means the item name has not been supplied.",
     "aliases": "Other supplied names for this ID; may be aliases or unresolved conflicting mappings.",
     "pendingOffers": "Name-based offers without a confirmed unique item ID; never use candidateIds as verified mappings.",
-    "buyerSelection": "One price and one buyer per item. Imported buyer selected from the highest listed offer matching the retained price; existing explicit sellTo choices preserved. Alternative offers omitted."
+    "buyerSelection": "One price and one buyer per item. Imported buyer selected from the highest listed offer matching the retained price; existing explicit sellTo choices preserved. Alternative offers omitted.",
+    "previousMappings": "Historical imported mappings contradicted by later user reports; not aliases or current mappings."
   },
   "buyerGroups": {
     "blue": {
@@ -360,7 +361,7 @@
     {"id":3002,"name":"Dworc Voodoo Doll","price":0,"sellTo":""},
     {"id":3003,"name":"Rope","price":0,"sellTo":""},
     {"id":3004,"name":"Wedding Ring","price":0,"sellTo":""},
-    {"id":3005,"name":"","price":0,"sellTo":""},
+    {"id":3005,"name":"elven brooch","price":0,"sellTo":"","evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name correction; not independently client-tested."}},
     {"id":3006,"name":"ring of the sky","price":30000,"sellTo":"Rashid"},
     {"id":3007,"name":"crystal ring","price":250,"sellTo":"Rashid"},
     {"id":3008,"name":"crystal necklace","price":400,"sellTo":"Rashid"},
@@ -419,15 +420,15 @@
     {"id":3061,"name":"life crystal","price":50,"sellTo":"Blue djinn"},
     {"id":3062,"name":"mind stone","price":100,"sellTo":"Blue djinn"},
     {"id":3063,"name":"gold ring","price":8000,"sellTo":"Rashid"},
-    {"id":3065,"name":"terra rod","price":2000,"sellTo":"Green djinn"},
-    {"id":3066,"name":"snakebite rod","price":100,"sellTo":"Green djinn"},
+    {"id":3065,"name":"golden wand","price":2500,"sellTo":"Rashid","previousMappings":[{"name":"terra rod","price":2000,"sellTo":"Green djinn","status":"Conflicts with user-supplied BubbaGame mapping; historical import only."}],"evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
+    {"id":3066,"name":"elven wand","price":50000,"sellTo":"Rashid","previousMappings":[{"name":"snakebite rod","price":100,"sellTo":"Green djinn","status":"Conflicts with user-supplied BubbaGame mapping; historical import only."}],"evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
     {"id":3067,"name":"hailstorm rod","price":3000,"sellTo":"Green djinn"},
     {"id":3068,"name":"crystal wand","price":4500,"sellTo":"Rashid"},
     {"id":3069,"name":"necrotic rod","price":1000,"sellTo":"Green djinn"},
     {"id":3070,"name":"moonlight rod","price":200,"sellTo":"Green djinn"},
     {"id":3071,"name":"wand of inferno","price":3000,"sellTo":"Blue djinn"},
-    {"id":3072,"name":"wand of decay","price":1000,"sellTo":"Blue djinn"},
-    {"id":3073,"name":"wand of cosmic energy","price":2000,"sellTo":"Blue djinn"},
+    {"id":3072,"name":"green spell wand","price":5000,"sellTo":"Rashid","previousMappings":[{"name":"wand of decay","price":1000,"sellTo":"Blue djinn","status":"Conflicts with user-supplied BubbaGame mapping; historical import only."}],"evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
+    {"id":3073,"name":"yellow spell wand","price":5000,"sellTo":"Rashid","previousMappings":[{"name":"wand of cosmic energy","price":2000,"sellTo":"Blue djinn","status":"Conflicts with user-supplied BubbaGame mapping; historical import only."}],"evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
     {"id":3074,"name":"wand of vortex","price":100,"sellTo":"Blue djinn"},
     {"id":3075,"name":"wand of dragonbreath","price":200,"sellTo":"Blue djinn"},
     {"id":3076,"name":"Crystal Ball","price":0,"sellTo":""},
@@ -1882,7 +1883,6 @@
     {"buyer":"green","name":"ankh","price":100,"id":null,"candidateIds":[3077,3214],"reason":"Ambiguous name; confirm numeric ID in client."},
     {"buyer":"rashid","name":"demon boots","price":70000,"id":null,"reason":"No matching item ID supplied."},
     {"buyer":"rashid","name":"crystal armor","price":50000,"id":null,"reason":"No matching item ID supplied."},
-    {"buyer":"rashid","name":"elven wand","price":50000,"id":null,"reason":"No matching item ID supplied."},
     {"buyer":"rashid","name":"fire robe","price":50000,"id":null,"reason":"No matching item ID supplied."},
     {"buyer":"rashid","name":"serpent scale armor","price":50000,"id":null,"reason":"No matching item ID supplied."},
     {"buyer":"rashid","name":"silk slippers","price":50000,"id":null,"reason":"No matching item ID supplied."},
@@ -1900,10 +1900,7 @@
     {"buyer":"rashid","name":"wand of might","price":15000,"id":null,"reason":"No matching item ID supplied."},
     {"buyer":"rashid","name":"ritual wand","price":5500,"id":null,"reason":"No matching item ID supplied."},
     {"buyer":"rashid","name":"blue spell wand","price":5000,"id":null,"reason":"No matching item ID supplied."},
-    {"buyer":"rashid","name":"green spell wand","price":5000,"id":null,"reason":"No matching item ID supplied."},
     {"buyer":"rashid","name":"red spell wand","price":5000,"id":null,"reason":"No matching item ID supplied."},
-    {"buyer":"rashid","name":"yellow spell wand","price":5000,"id":null,"reason":"No matching item ID supplied."},
-    {"buyer":"rashid","name":"golden wand","price":2500,"id":null,"reason":"No matching item ID supplied."},
     {"buyer":"rashid","name":"conjurer wand","price":1000,"id":null,"reason":"No matching item ID supplied."},
     {"buyer":"rashid","name":"wooden wand","price":500,"id":null,"reason":"No matching item ID supplied."}
   ]
