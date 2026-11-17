@@ -10,8 +10,7 @@
     "name": "Empty string means the item name has not been supplied.",
     "aliases": "Other supplied names for this ID; may be aliases or unresolved conflicting mappings.",
     "pendingOffers": "Name-based offers without a confirmed unique item ID; never use candidateIds as verified mappings.",
-    "buyerSelection": "One price and one buyer per item. Imported buyer selected from the highest listed offer matching the retained price; existing explicit sellTo choices preserved. Alternative offers omitted.",
-    "previousMappings": "Historical imported mappings contradicted by later user reports; not aliases or current mappings."
+    "buyerSelection": "One price and one buyer per item. Imported buyer selected from the highest listed offer matching the retained price; existing explicit sellTo choices preserved. Alternative offers omitted."
   },
   "buyerGroups": {
     "blue": {
@@ -420,15 +419,15 @@
     {"id":3061,"name":"life crystal","price":50,"sellTo":"Blue djinn"},
     {"id":3062,"name":"mind stone","price":100,"sellTo":"Blue djinn"},
     {"id":3063,"name":"gold ring","price":8000,"sellTo":"Rashid"},
-    {"id":3065,"name":"golden wand","price":2500,"sellTo":"Rashid","previousMappings":[{"name":"terra rod","price":2000,"sellTo":"Green djinn","status":"Conflicts with user-supplied BubbaGame mapping; historical import only."}],"evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
-    {"id":3066,"name":"elven wand","price":50000,"sellTo":"Rashid","previousMappings":[{"name":"snakebite rod","price":100,"sellTo":"Green djinn","status":"Conflicts with user-supplied BubbaGame mapping; historical import only."}],"evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
+    {"id":3065,"name":"golden wand","price":2500,"sellTo":"Rashid","evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
+    {"id":3066,"name":"elven wand","price":50000,"sellTo":"Rashid","evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
     {"id":3067,"name":"hailstorm rod","price":3000,"sellTo":"Green djinn"},
     {"id":3068,"name":"crystal wand","price":4500,"sellTo":"Rashid"},
     {"id":3069,"name":"necrotic rod","price":1000,"sellTo":"Green djinn"},
     {"id":3070,"name":"moonlight rod","price":200,"sellTo":"Green djinn"},
     {"id":3071,"name":"wand of inferno","price":3000,"sellTo":"Blue djinn"},
-    {"id":3072,"name":"green spell wand","price":5000,"sellTo":"Rashid","previousMappings":[{"name":"wand of decay","price":1000,"sellTo":"Blue djinn","status":"Conflicts with user-supplied BubbaGame mapping; historical import only."}],"evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
-    {"id":3073,"name":"yellow spell wand","price":5000,"sellTo":"Rashid","previousMappings":[{"name":"wand of cosmic energy","price":2000,"sellTo":"Blue djinn","status":"Conflicts with user-supplied BubbaGame mapping; historical import only."}],"evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
+    {"id":3072,"name":"green spell wand","price":5000,"sellTo":"Rashid","evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
+    {"id":3073,"name":"yellow spell wand","price":5000,"sellTo":"Rashid","evidence":{"status":"user-reported","date":"2026-11-17","source":"User supplied BubbaGame ID/name/price/buyer correction; not independently client-tested."}},
     {"id":3074,"name":"wand of vortex","price":100,"sellTo":"Blue djinn"},
     {"id":3075,"name":"wand of dragonbreath","price":200,"sellTo":"Blue djinn"},
     {"id":3076,"name":"Crystal Ball","price":0,"sellTo":""},
