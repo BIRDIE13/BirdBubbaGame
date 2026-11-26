@@ -389,7 +389,7 @@
     {"id":3031,"name":"gold coin","price":0,"sellTo":""},
     {"id":3032,"name":"small emerald","price":250,"sellTo":"Gemma"},
     {"id":3033,"name":"small amethyst","price":0,"sellTo":""},
-    {"id":3034,"name":"talon","price":0,"sellTo":""},
+    {"id":3034,"name":"talon","price":320,"sellTo":"Rachel"},
     {"id":3035,"name":"platinum coin","price":0,"sellTo":""},
     {"id":3036,"name":"violet gem","price":10000,"sellTo":"Rashid"},
     {"id":3037,"name":"yellow gem","price":1000,"sellTo":"Rashid"},
