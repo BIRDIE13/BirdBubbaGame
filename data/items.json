@@ -540,7 +540,7 @@
     {"id":3247,"name":"","price":0,"sellTo":""},
     {"id":3249,"name":"frozen starlight","price":0,"sellTo":""},
     {"id":3250,"name":"carrot of doom","price":0,"sellTo":""},
-    {"id":3251,"name":"blood orb","price":0,"sellTo":""},
+    {"id":3251,"name":"demon heart","price":0,"sellTo":"","aliases":["blood orb"]},
     {"id":3252,"name":"horn of sundering","price":0,"sellTo":""},
     {"id":3253,"name":"backpack of holding","price":0,"sellTo":""},
     {"id":3254,"name":"roc feather","price":0,"sellTo":""},
